@@ -55,6 +55,12 @@ print(m)
 2. Display the levels and the factor variable as a table.  
 3. Unclass the elements of the factor variable.  
 
+emp_status <- factor (c("Employed", "Unemployed", "Self-Employed",                                      "Self-Employed","Self-Employed","Employed",
+                        "Unemployed","Unemployed"), 
+                        levels = c("Employed","Unemployed","Self-Employed"))
+emp_status
+table(emp_status)
+unclass(emp_status)
 
 ```{r }
 #### Start solution ####
