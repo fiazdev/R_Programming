@@ -47,13 +47,17 @@ print(m)
 
 
 #### End solution ####
-```
+
 
 ### Question 2
 **Create a factor variable emp_status:**  
+
 1. Containing the categorical variables: Employed, Unemployed, Self-Employed, with each level appearing atleast more than 2.  
 2. Display the levels and the factor variable as a table.  
 3. Unclass the elements of the factor variable.  
+
+
+#### Start solution ####
 
 emp_status <- factor (c("Employed", "Unemployed", "Self-Employed",                                      "Self-Employed","Self-Employed","Employed",
                         "Unemployed","Unemployed"), 
@@ -62,27 +66,6 @@ emp_status
 table(emp_status)
 unclass(emp_status)
 
-```{r }
-#### Start solution ####
-```
-
-
-```{r }
-
-```
-
-
-```{r }
-
-```
-
-
-```{r }
-
-```
-
-
-```{r }
 #### End solution ####
 ```
 
