@@ -22,32 +22,30 @@ output: html_document
 5. Assign names to the variables.  
 
 
-```{r }
 #### Start solution ####
-```
+#### 1. A vector containing each letter of your first name as its elements####
+c("F","I","A","Z")
+
+## 2.A variable that contains your name concatenated from the vector created in (1)
+myname <- c("F","I","A","Z")
+myname
+
+#### 3. A variable containing a sequence from 100 to 120.####
+x <- 100:120
+print (x)
 
 
-```{r }
-
-```
-
-
-```{r }
-
-```
+###4. Create a matrix of 3x3 dimensions that contains the even sequence of numbers starting from 2.  
+m <- matrix(1:9*2,nrow=3,ncol=3)
+print(m)
 
 
-```{r }
-
-```
-
-
-```{r }
-
-```
+### 5. Assign names to the variables.
+m <- matrix(1:9*2,nrow=3,ncol=3)
+dimnames(m) <- list(c("R1","R2","R3"),c("C1","C2","C3"))
+print(m)
 
 
-```{r }
 #### End solution ####
 ```
 
